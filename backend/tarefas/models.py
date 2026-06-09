@@ -1,6 +1,7 @@
 from django.db import models
 
 # Create your models here.
+<<<<<<< HEAD
 
 from django.db import models
 
@@ -41,3 +42,5 @@ class Tarefa(models.Model):
 
     def __str__(self):
         return self.titulo
+=======
+>>>>>>> 1c2d85c1dee8a741f5dadd80736979a3e3d89f04

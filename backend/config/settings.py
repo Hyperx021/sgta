@@ -12,7 +12,10 @@ https://docs.djangoproject.com/en/6.0/ref/settings/
 
 from pathlib import Path
 <<<<<<< HEAD
+<<<<<<< HEAD
 import os
+=======
+>>>>>>> 1c2d85c1dee8a741f5dadd80736979a3e3d89f04
 =======
 >>>>>>> 1c2d85c1dee8a741f5dadd80736979a3e3d89f04
 
@@ -42,10 +45,13 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 <<<<<<< HEAD
+<<<<<<< HEAD
     'tarefas',
     'usuarios'
 
     
+=======
+>>>>>>> 1c2d85c1dee8a741f5dadd80736979a3e3d89f04
 =======
 >>>>>>> 1c2d85c1dee8a741f5dadd80736979a3e3d89f04
 ]
@@ -84,6 +90,7 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # https://docs.djangoproject.com/en/6.0/ref/settings/#databases
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 DATABASES = {
     'default': {
@@ -97,6 +104,8 @@ DATABASES = {
 }
 
 =======
+=======
+>>>>>>> 1c2d85c1dee8a741f5dadd80736979a3e3d89f04
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
@@ -105,6 +114,9 @@ DATABASES = {
 }
 
 
+<<<<<<< HEAD
+>>>>>>> 1c2d85c1dee8a741f5dadd80736979a3e3d89f04
+=======
 >>>>>>> 1c2d85c1dee8a741f5dadd80736979a3e3d89f04
 # Password validation
 # https://docs.djangoproject.com/en/6.0/ref/settings/#auth-password-validators

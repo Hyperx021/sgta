@@ -1,6 +1,7 @@
 from django.shortcuts import render
 
 # Create your views here.
+<<<<<<< HEAD
 
 from django.http import JsonResponse
 from .models import tarefa
@@ -138,3 +139,5 @@ def buscar_por_titulo(request, palavra):
         lista.append(t)
 
     return JsonResponse(lista, safe=False)
+=======
+>>>>>>> 1c2d85c1dee8a741f5dadd80736979a3e3d89f04
